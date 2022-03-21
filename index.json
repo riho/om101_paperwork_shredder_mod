@@ -1,0 +1,16 @@
+{
+	"name": "Paperwork shredder",
+	"description": "Adds a paperwork shredder to the game",
+	"logo": "",
+	"cover_image": "",
+	"version": "1.0",
+	"date": "2022-03-19",
+	"author": "tulevik.EU",
+	"game_name": "Office Management 101",
+	"game_version": "0.5.14_alpha",
+	"game_version_code": 1522,
+	"min_game_version_code": 1522,
+	"affects_savegames": false,
+	"requires_asset_reload": false,
+	"localization": "mod"
+}

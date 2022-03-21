@@ -1,0 +1,98 @@
+{
+	"categories": {
+		"shredders": { name: "FURNITURE_CATEGORY_SHREDDERS_NAME" }
+	},
+	"furniture": {
+		"shredder": {
+			"name": "FURNITURE_SHREDDER_NAME",
+			"downcase_name": "FURNITURE_SHREDDER_DOWNCASE_NAME",
+			"description": "FURNITURE_SHREDDER_DESCRIPTION",
+			"categories": [ "shredders" ],
+			"price": 55,
+			"dimensions": [1, 1],
+			"spritesheet": "mod_paperwork_shredder",
+			"textures": {
+				"default": [1, 2, 3, 4],
+				"broke": [1, 2, 3, 4],
+			},
+			"walkable": false,
+			"level": 1,
+			"quality": 5,
+			"can_break": true,
+			"placement": "normal",
+			"can_buy": true,
+			"can_move": true,
+			"can_trash": true,
+			"can_sell": true,
+			"prevent_on_wall": false,
+			"prevent_on_floor": false,
+			"prevent_furniture": true,
+			"allow_indoors": true,
+			"allow_outdoors": false,
+			"lighting": 0,
+			"block_lighting": 0,
+			"combinable": {
+				"small_paperwork": "shredder",
+				"medium_paperwork": "shredder",
+				"big_paperwork": "shredder",
+				"small_messy_paperwork": "shredder",
+				"medium_messy_paperwork": "shredder",
+				"big_messy_paperwork": "shredder",
+				"boxed_paperwork": "shredder",
+				"boxed_paperwork2": "shredder",
+				"boxed_paperwork3": "shredder",
+				"boxed_paperwork4": "shredder"
+			}
+		},
+		"small_paperwork": {
+			"combinable": {
+				"shredder": "shredder"
+			}
+		},
+		"medium_paperwork": {
+			"combinable": {
+				"shredder": "shredder"
+			}
+		},
+		"big_paperwork": {
+			"combinable": {
+				"shredder": "shredder"
+			}
+		},
+		"small_messy_paperwork": {
+			"combinable": {
+				"shredder": "shredder"
+			}
+		},
+		"medium_messy_paperwork": {
+			"combinable": {
+				"shredder": "shredder"
+			}
+		},
+		"big_messy_paperwork": {
+			"combinable": {
+				"shredder": "shredder"
+			}
+		},
+		"boxed_paperwork": {
+			"combinable": {
+				"shredder": "shredder"
+			}
+		},
+		"boxed_paperwork2": {
+			"combinable": {
+				"shredder": "shredder"
+			}
+		},
+		"boxed_paperwork3": {
+			"combinable": {
+				"shredder": "shredder"
+			}
+		},
+		"boxed_paperwork4": {
+			"combinable": {
+				"shredder": "shredder"
+			}
+		}
+	}
+}
