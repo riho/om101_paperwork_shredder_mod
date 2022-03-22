@@ -12,14 +12,15 @@
 			"dimensions": [1, 1],
 			"spritesheet": "mod_paperwork_shredder",
 			"textures": {
-				"default": [1, 2, 3, 4],
-				"broke": [1, 2, 3, 4],
+				"default": [5, 6, 7, 8],
+				"default_normal": [1, 2, 3, 4],
+				"default_tilecursor": [5, 6, 7, 8]
 			},
 			"walkable": false,
 			"level": 1,
 			"quality": 5,
 			"can_break": true,
-			"placement": "normal",
+			"placement": [ "table", "normal" ],
 			"can_buy": true,
 			"can_move": true,
 			"can_trash": true,
